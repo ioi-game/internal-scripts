@@ -21,6 +21,7 @@ IPADDR=192.168.56.111
 cat <<< '
 PasswordAuthentication yes
 ' >> /etc/ssh/sshd_config
+# ERROR! - replace "PasswordAuthentication no" with "#PasswordAuthentication no" is required. Without this is not possible to login via password
 
 # samba and access to /var/www 
 yum install -y samba samba-client samba-common
