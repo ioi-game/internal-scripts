@@ -18,10 +18,10 @@ IPADDR=192.168.56.111
 ' > /etc/sysconfig/network-scripts/ifcfg-eth1
 
 # allow login with password 
+sed -i 's/PasswordAuthentication no/#PasswordAuthentication no/' /etc/ssh/sshd_config
 cat <<< '
 PasswordAuthentication yes
 ' >> /etc/ssh/sshd_config
-# ERROR! - replace "PasswordAuthentication no" with "#PasswordAuthentication no" is required. Without this is not possible to login via password
 
 # samba and access to /var/www 
 yum install -y samba samba-client samba-common
