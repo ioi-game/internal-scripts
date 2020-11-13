@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# run from local EC2: 
+# curl -sL https://raw.githubusercontent.com/ioi-game/internal-scripts/main/init-local-virtual-ec2.sh | sudo bash -
+
 sudo su -
 
 # eth1 installation
