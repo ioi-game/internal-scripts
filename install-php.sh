@@ -17,7 +17,7 @@ yum install -y nginx
 
 # todo - nginx config...
 
-# CONFIGURE PHP
+# CONFIGURE PHP FOR NGINX
 #sed -i 's/cgi.fix_pathinfo = 0/#cgi.fix_pathinfo = 0/' /etc/php.ini
 cat <<< '
 cgi.fix_pathinfo = 0
