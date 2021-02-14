@@ -28,6 +28,3 @@ cgi.fix_pathinfo = 0
 sudo systemctl start php-fpm
 sudo systemctl enable php-fpm
 sudo systemctl status php-fpm
-
-
-# see https://kirelos.com/how-to-install-php-8-0-on-centos-8-centos-7/
