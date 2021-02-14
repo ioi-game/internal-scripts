@@ -46,3 +46,5 @@ create mask = 0777
 directory mask = 0777
 public = yes
 ' > /etc/samba/smb.conf
+
+systemctl enable smb.service
