@@ -9,7 +9,7 @@ sudo su -
 yum update -y
 yum install -y amazon-linux-extras
 amazon-linux-extras enable php8.0
-yum install -y php php-{pear,cgi,common,curl,mbstring,gd,mysqlnd,gettext,bcmath,json,xml,fpm,intl,zip,imap,pdo,process,cli,devel,enchant,odbc,opcache,pecl-apcu,pecl-apcu-devel,pecl-igbinary,pecl-igbinary-devel,pecl-mailparse,pecl-memcache,pecl-memcached,pecl-msgpack,pecl-msgpack-devel,pecl-oauth,pecl-redis,pecl-ssh2,pecl-uuid,pgsql,pspell,snmp,soap,sodium,xmlrpc}
+yum install -y php php-{pear,cgi,common,curl,mbstring,gd,mysqlnd,gettext,bcmath,json,xml,fpm,intl,zip,imap,pdo,process,cli,devel,enchant,odbc,opcache,pecl-apcu,pecl-apcu-devel,pecl-igbinary,pecl-igbinary-devel,pecl-mailparse,pecl-memcache,pecl-memcached,pecl-msgpack,pecl-msgpack-devel,pecl-oauth,pecl-redis,pecl-ssh2,pecl-uuid,pgsql,pspell,snmp,soap,sodium,xmlrpc} --skip-broken
 #problems:recode
 #ignored:embedded,dba,dbg,gmp,ldap,mysql(replaced with mysqlnd),
 
