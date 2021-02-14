@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# run from local EC2: 
+# curl -sL https://raw.githubusercontent.com/ioi-game/internal-scripts/main/install-php-7.4.sh | sudo bash -
+
 sudo su -
 
 # PHP
