@@ -22,3 +22,4 @@ valid users = ec2-user
 ' > /etc/samba/smb.conf
 
 systemctl enable smb.service
+systemctl restart smb.service
